@@ -18,7 +18,7 @@ You can get back to your client anytime and ask for clarification or further det
 You can specify the forms for your clients with a simple language based on HTML, that is easy to understand even for non-programmers. For example, the following code
 
 ```jsx
- <SingleChoice
+<SingleChoice
   q="Does the sample require any other treatment?"
   id="Requires Other Treatment"
 >
