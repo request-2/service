@@ -1,4 +1,6 @@
-# Request 2
+<img src="images/logo_banner.svg" alt="Logo Banner" height="50px">
+
+#
 
 Request management system for analytical labs.
 
