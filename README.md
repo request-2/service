@@ -1,4 +1,6 @@
-# Request 2 — Request management system for analytical labs
+# Request 2
+
+Request management system for analytical labs.
 
 No more tracking requests on paper! Request 2 is a web service that moves the bulk of request specification and request tracking online.
 
