@@ -2,7 +2,7 @@
 
 No more tracking requests on paper! Request 2 is a web service that moves the bulk of request specification and request tracking online.
 
-<img src="images/uochb.svg" alt="IOCB logo" height="64px">   <img src="images/elixir-cz.svg" alt="Elixir CZ logo" height="64px">   <img src="images/elixir.svg" alt="Elixir logo" height="64px">   <img src="images/haskell.svg" alt="Elixir logo" height="64px">   <img src="images/typescript.svg" alt="Elixir logo" height="64px">
+<img src="images/banner.svg" alt="Logo Banner" height="64px">
 
 ## Workflow
 
