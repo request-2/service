@@ -1,0 +1,9 @@
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:Eugleo/request2-core-frontend.git
+[submodule "backend"]
+	path = backend
+	url = git@github.com:Eugleo/request2-core-backend.git
+[submodule "docker"]
+	path = docker
+	url = git@github.com:Eugleo/request2-core-docker.git
