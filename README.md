@@ -15,7 +15,7 @@ From then on, the workflow looks like this:
 1. A client logs into Request 2 and fills in one of the predefined forms in his web browser.
 2. You receive an automatic email notifying you there's a new request wating to be done.
 3. You check the request details online, and then do the requested measurement. Sadly, we can't yet do the latter automatically :-(
-4. When you're done, you submit the results on the page of the client's request. He receives an email that the request has been completed.
+4. When you're done, you submit the results on the page of the client's request. They receive an email that the request has been completed.
 
 You can get back to your client anytime and ask for clarification or further details in the comments section on the request's page.
 
