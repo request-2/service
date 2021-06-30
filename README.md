@@ -67,6 +67,17 @@ git submodule init
 git submodule update
 ```
 
+Notably, this pulls in 3 other repositories:
+
+- Javascript React app for the frontend (https://github.com/Eugleo/request2-core-frontend)
+- Haskell app for the backend API server (https://github.com/Eugleo/request2-core-backend)
+- Docker scripts for container building (https://github.com/Eugleo/request2-core-docker)
+
+This repository contains only the minimal lab-specific configuration, namely:
+
+- Form and request specifications in directory `RequestTypes/`
+- Configurations of the backend API server and the dockerized mail sender in directory `config/`
+
 ## Configuration
 
 Edit `config/request2.cfg` (the configuration of the backend) and
