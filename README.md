@@ -97,7 +97,33 @@ docker build -f docker/Dockerfile -t request2-MyLab:latest .
 
 Replace `MyLab` in the command with a name that best describes your use.
 
-## Running the container
+## Setting up the database
+
+After the container is built, you need to prepare the database structure.
+
+Run the container as follows:
+
+```
+docker run request2-MyLab:latest -ti --rm /bin/bash
+```
+
+This should open a shell. The backend binary is available in `/root/.cabal/bin/request2`; you may ask it to configure the database (with the connection details you have filled in in the previous steps) as follows:
+
+```
+/root/.cabal/bin/request2 -c /srv/config/request2.cfg
+```
+
+If this fails, you need to fix the database connection. You may edit the request2.cfg file in place to test solutions directly from the running container.
+
+Similarly, you may want to send a testing mail, to check if the mail service works correctly:
+
+```
+/root/.cabal/bin/request2 -c /srv/config/request2.cfg  mail-test some.user@example.com
+```
+
+If the mail sending fails for some reason, you again need to find and correct the problem in your config; this time more likely in the supplied `ssmtp.conf` (also in `/srv/config`).
+
+## Running the service
 
 Starting the docker container with `docker run` will start the backend daemon and serve the content on port 8080. You may need to make the port visible from the outside, and you will certainly want to mount a permanent (backed-up) storage to `/srv/data` inside of the container, for the file storage.
 
