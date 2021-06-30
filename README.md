@@ -121,7 +121,7 @@ docker run request2-MyLab:latest -ti --rm /bin/bash
 This should open a shell. The backend binary is available in `/root/.cabal/bin/request2`; you may ask it to configure the database (with the connection details you have filled in in the previous steps) as follows:
 
 ```
-/root/.cabal/bin/request2 -c /srv/config/request2.cfg
+/root/.cabal/bin/request2 -c /srv/config/request2.cfg  create-db
 ```
 
 If this fails, you need to fix the database connection. You may edit the request2.cfg file in place to test solutions directly from the running container.
