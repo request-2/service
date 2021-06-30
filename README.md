@@ -14,14 +14,14 @@ From then on, the workflow looks like this:
 
 1. A client logs into Request 2 and fills in one of the predefined forms in his web browser.
 2. You receive an automatic email notifying you there's a new request wating to be done.
-3. You check the request details online, and then do the requested measurement.
+3. You check the request details online, and then do the requested measurement. Sadly, we can't yet do the latter automatically :-(
 4. When you're done, you submit the results on the page of the client's request. He receives an email that the request has been completed.
 
 You can get back to your client anytime and ask for clarification or further details in the comments section on the request's page.
 
 ## Form specification
 
-You can specify the forms for your clients with a simple language based on HTML, that is easy to understand even for non-programmers. For example, the following code
+You can specify the forms for your clients with a simple language based on HTML that can be easily understood even by non-programmers. For example, this code
 
 ```jsx
 <SingleChoice
