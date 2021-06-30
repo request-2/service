@@ -1,4 +1,5 @@
-import { GeneralAnalytics } from './GeneralAnalytics';
+import { Demo } from './DemoForm';
+
 
 // eslint-disable-next-line sonarjs/no-unused-collection
 export const requests: Map<
@@ -6,8 +7,8 @@ export const requests: Map<
   { newRequestButtonText: string; titleText: string; formComponent: JSX.Element }
 > = new Map();
 
-requests.set('general-analytics', {
-  newRequestButtonText: 'Analytics',
-  titleText: 'analytics',
-  formComponent: GeneralAnalytics,
-});
+requests.set('demo', {
+  newRequestButtonText: 'Demo',
+  titleText: 'demo',
+  formComponent: Demo,
+})
